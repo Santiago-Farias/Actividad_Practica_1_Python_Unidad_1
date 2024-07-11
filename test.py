@@ -1,4 +1,11 @@
-valorVerdad = 10 > 5
-valorMentira = 10>15
+soy_robot = True
 
-print(valorVerdad==valorMentira)
+print(soy_robot)
+
+soy_robot = not soy_robot
+
+print(soy_robot)
+
+valorA = False
+
+print(not valorA)
