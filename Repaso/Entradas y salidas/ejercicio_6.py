@@ -8,6 +8,6 @@ Ej: "El resto de dividir 7 por 2 es: 1".
 operador_a = int(input("Ingrese el primer número: "))
 operador_b = int(input("Ingrese el segundo número: "))
 
-resto_division = operador_a % operador_b
+resto_division = operador_a % operador_b # el % será bis en el futuro
 
 print(f"El resto de dividir {operador_a} por {operador_b} es: {resto_division}")

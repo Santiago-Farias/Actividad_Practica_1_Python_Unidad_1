@@ -11,4 +11,7 @@ user_age = int(input("Ingrese su edad: "))
 # Mostrar datos.
 #print("Usted se llama", user_name, "y su edad es de", str(user_age), "años.")
 
+# Mas usada interpolado.
 print(f"Usted se llama {user_name} y su edad es de {user_age} años.")
+
+#print("Usted se llama {0} y su edad es de {1}".format(user_name, user_age))

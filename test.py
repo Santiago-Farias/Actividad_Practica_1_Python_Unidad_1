@@ -1,6 +1,7 @@
-nota = int(input("Ingrese la nota: "))
+string1 = 'Hello'
+string2 = 'hello'
 
-while nota < 0 or nota > 10:
-    nota = int(input("Ingrese nuevamente la nota: "))
-
-print("Nota ingresada exitosamente, fue un:", nota)
+if string1.casefold() == string2.casefold():
+    print("The strings are the same (case insensitive)")
+else:
+    print("The strings are NOT the same (case insensitive)")

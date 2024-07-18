@@ -54,9 +54,6 @@ valor_viaje = pasaje_persona_1 + pasaje_persona_2
 # Calcular suma y promedio de edades.
 suma_de_edades = edad_persona_1 + edad_persona_2
 edad_promedio = suma_de_edades / cantidad_personas
-""" 
-"Hola jose y maria , sus pesos son 80 kilos y 60 kilos respectivamente, sumados da 140 kilos , 
-el promedio de edad es 33 y su viaje vale 140000 pesos ". """
 
 print(f"Hola {nombre_persona_1} y {nombre_persona_2}, sus pesos son {peso_persona_1} kilos y {peso_persona_2} kilos respectivamente, "
       f"sumados da {peso_total} kilos, el promedio de edad es de {edad_promedio} años y su viaje vale ${valor_viaje}")
