@@ -101,10 +101,10 @@ if jugador_3_partidas_ganadas < jugador_menos_ganador_partidas:
 
 print(f""" 
 | Jugador mas ganador |
-{jugador_mas_ganador_nombre}, {jugador_mas_ganador_edad} años ({jugador_mas_ganador} partidas ganadas)
+{jugador_mas_ganador_nombre}, {jugador_mas_ganador_edad} años ({jugador_mas_ganador_partidas} partidas ganadas)
 
 | Jugador menos ganador |
-{jugador_menos_ganador_nombre}, {jugador_menos_ganador_edad} años ({jugador_menos_ganador} partidas ganadas)
+{jugador_menos_ganador_nombre}, {jugador_menos_ganador_edad} años ({jugador_menos_ganador_partidas} partidas ganadas)
 
 | Promedio de edad |
     {jugadores_promedio_edad} años
