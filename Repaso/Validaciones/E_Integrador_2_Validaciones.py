@@ -1,4 +1,4 @@
-# Entregado pendiente de revisión.
+# Entregado.
 """
 Ejercicio integradoar N°2 Validaciones
 De los jugadores participantes en un torneo de ajedrez, se registra:
@@ -27,7 +27,7 @@ jugador_menos_ganador_nombre = ""
 jugador_menos_ganador_partidas = 0
 jugador_menos_ganador_edad = 0
 
-acumulador_partidas_ganadas = 0
+total_partidas_ganadas = 0
 
 bandera = True
 
@@ -66,7 +66,7 @@ while True:
         bandera = False
 
     # Acumular suma de partidas ganadas.
-    acumulador_partidas_ganadas += jugador_ganadas
+    total_partidas_ganadas += jugador_ganadas
 
     # Solicitar al usuario si desea seguir ingresando datos.
     opcion = input("Desea seguir (si/no)")
@@ -76,9 +76,12 @@ while True:
 # Calcular promedio de edades.
 jugadores_edad_promedio = jugadores_edad_suma / jugadores
 
-print(f"Mas partidas ganadas: {jugador_mas_ganador_partidas}")
-print(f"Nombre mas ganador: {jugador_mas_ganador_nombre}")
-print(f"Menos partidas ganadas: {jugador_menos_ganador_partidas}")
-print(f"Nombre menos ganador: {jugador_menos_ganador_nombre}")
-print(f"Promedio edad: {jugadores_edad_promedio:.2f}")
-print(f"Jugadores totales: {acumulador_partidas_ganadas}")
+# Mostrar estadísticas por pantalla.
+print(f""" 
+| Y LOS RESULTADOS SON... |
+
+Jugador mas ganador: {jugador_mas_ganador_nombre}
+Nombre y edad del jugador menos ganador, respectivamente: {jugador_menos_ganador_nombre}, {jugador_menos_ganador_edad}
+Edad promedio: {jugadores_edad_promedio:.2f}
+Partidas ganadas en total: {total_partidas_ganadas}
+""")

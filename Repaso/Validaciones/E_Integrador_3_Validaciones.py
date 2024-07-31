@@ -1,3 +1,4 @@
+# Entregado
 """
 Ejercicio integrador N°3 Validaciones
 Una empresa dedicada a la toma de datos para realizar estadísticas y censos, nos pide realizar
@@ -30,6 +31,6 @@ while usuario_estado_civil.lower() != "soltero" and usuario_estado_civil.lower()
 
 usuario_nro_legajo = int(input("Ingrese el número de legajo (4 cifras, sin ceros a la izquierda: "))
 
-while usuario_nro_legajo > 9999:
+while usuario_nro_legajo < 1000 or usuario_nro_legajo > 9999:
     print("Número inválido")
     usuario_nro_legajo = int(input("Siga las reglas, intente de nuevo: "))
